@@ -69,12 +69,11 @@ public class SymmetricDifference {
             for(int number : set){
                 if(!finalSet.contains(number) && !alreadyInserted.contains(number)){
                     finalSet.add(number);
-                    alreadyInserted.add(number);
                 }
                 else{
                     finalSet.removeIf(eachNumber -> eachNumber == number && !alreadyInserted.contains(number));
-                    alreadyInserted.add(number);
                 }
+                alreadyInserted.add(number);
             }
             alreadyInserted.clear();
         }
