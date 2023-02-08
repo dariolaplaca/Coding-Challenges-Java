@@ -1,5 +1,5 @@
 # Coding-Challenges-Java
-Miscellaneous coding challenges made in Java.
+Miscellaneous coding challenges from freeCodeCamp Coding Interview Prep written in Java.
 
 <h2>Algorithms</h2>
 <ol>
