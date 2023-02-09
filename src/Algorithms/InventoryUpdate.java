@@ -4,6 +4,32 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class InventoryUpdate {
+
+    public static ArrayList<Items> InvUpd(ArrayList<Items> currentInventory, ArrayList<Items> newInventory){
+        // Instantiating a boolean variable to check if our inventory already has the passed item
+        boolean hasItem;
+        // Iterating through the upcoming item's inventory
+        for(int i = 0; i < newInventory.toArray().length; i++){
+            hasItem = false;
+            //Iterating through our inventory
+            for(int j = 0; j < currentInventory.toArray().length; j++){
+                //Checking if we already have the new item in our inventory by its name
+                if(currentInventory.get(j).getName().equals(newInventory.get(i).getName())){
+                    //If we have already the item we get the quantity of the item and we add it to the quantity in our inventory
+                    currentInventory.get(j).setNumber(currentInventory.get(j).getNumber() + newInventory.get(i).getNumber());
+                    hasItem = true;
+                }
+            }
+            if(!hasItem){
+                //If we don't have the item already we just add the whole item in our inventory
+                currentInventory.add(newInventory.get(i));
+            }
+        }
+        //We sort the final inventory by the item's name
+        currentInventory.sort(Comparator.comparing(Items::getName));
+        return currentInventory;
+    }
+
     public static void main(String[] args) {
         InventoryUpdate inv = new InventoryUpdate();
         inv.Init();
@@ -40,6 +66,7 @@ public class InventoryUpdate {
         System.out.println(myFinalInventory);
     }
 
+    //Class for the Items that store the name and the number of items we have in the inventory
     public static class Items{
         int number;
         String name;
@@ -69,26 +96,6 @@ public class InventoryUpdate {
             return getName() + " " + getNumber();
         }
     }
-
-
-    public static ArrayList<Items> InvUpd(ArrayList<Items> currentInventory, ArrayList<Items> newInventory){
-        boolean hasItem;
-        for(int i = 0; i < newInventory.toArray().length; i++){
-            hasItem = false;
-            for(int j = 0; j < currentInventory.toArray().length; j++){
-                if(currentInventory.get(j).getName().equals(newInventory.get(i).getName())){
-                    currentInventory.get(j).setNumber(currentInventory.get(j).getNumber() + newInventory.get(i).getNumber());
-                    hasItem = true;
-                }
-            }
-            if(!hasItem){
-                currentInventory.add(newInventory.get(i));
-            }
-        }
-        currentInventory.sort(Comparator.comparing(Items::getName));
-        return currentInventory;
-    }
-
 }
 
 
