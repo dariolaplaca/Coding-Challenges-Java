@@ -19,7 +19,7 @@ The returned inventory array is sorted in alphabetical order by each item's name
 
 </ol>
 
-<h2>Rosetta Codes challenges</h2>
+<h2>Rosetta Codes Challenges</h2>
 <ol>
 
 <li><h4>100 Doors</h4><details><summary>Definition</summary><blockquote>

@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f3bb2b-52f8-45c5-8e9b-5c41298289b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RosettaCode/OneHundredDoors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InventoryUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/InventoryUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/SymmetricDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/SymmetricDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
