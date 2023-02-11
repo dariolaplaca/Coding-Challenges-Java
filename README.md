@@ -17,6 +17,17 @@ If an item cannot be found, it adds the new item and quantity into the inventory
 The returned inventory array is sorted in alphabetical order by each item's name.</blockquote></details>
 </li>
 
+<li><h4>No Repeats Please</h4><details><summary>Definition</summary><blockquote>
+Return the number of total permutations of the provided string that don't have repeated consecutive letters.
+Assume that all characters in the provided string are each unique.
+
+For example, aab should return 2 because it has 6 total permutations (aab, aab, aba, aba, baa, baa), but only 2 of them (aba and aba) don't have the same letter (in this case a) repeating.
+</blockquote></details>
+</li>
+
+
+
+
 </ol>
 
 <h2>Rosetta Codes Challenges</h2>
