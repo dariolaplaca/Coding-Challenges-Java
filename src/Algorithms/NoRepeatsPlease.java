@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class NoRepeatsPlease {
 
-    //We create a recursive function to make all the available permutations for the given string and add them a String Array passed as input
+    //We create a recursive function to make all the available permutations for the given string and add them to a String Array passed as input
     public void recursivePermutation(String str, String ans, ArrayList<String> permutationArray, int originalStringLength){
         for(int i = 0; i < str.length(); i++){
             // Taking each char from the string
