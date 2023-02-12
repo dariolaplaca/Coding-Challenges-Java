@@ -37,7 +37,8 @@ public class SymmetricDifference {
 
         //FIRST TEST
 
-        ArrayList<Integer> firstTest = SymDiff(new ArrayList<>(Arrays.asList(3, 3, 3, 2, 5)),
+        ArrayList<Integer> firstTest = SymDiff(
+                new ArrayList<>(Arrays.asList(3, 3, 3, 2, 5)),
                 new ArrayList<>(Arrays.asList(2, 1, 5, 7)),
                 new ArrayList<>(Arrays.asList(3, 4, 6, 6)),
                 new ArrayList<>(Arrays.asList(1, 2, 3)),
