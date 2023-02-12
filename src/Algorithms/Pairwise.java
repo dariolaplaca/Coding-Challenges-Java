@@ -10,10 +10,9 @@ public class Pairwise {
         ArrayList<Integer> pairsArr = new ArrayList<>();
         // Looping 2 times in the same array to find the pairs that fit the condition
         for (int i = 0; i < arr.size(); i++) {
-            for (int j = 0; j < arr.size(); j++) {
-                // Checking if the sum is equal to the targetSum, evaluating if i and j are not targeting the same index
-                // And if our pairs array doesn't contain already the index we are iterating
-                if (arr.get(i) + arr.get(j) == targetSum && i != j && !pairsArr.contains(i) && !pairsArr.contains(j)) {
+            for (int j = i + 1; j < arr.size(); j++) {
+                // Checking if the sum is equal to the targetSum and if our pairs array doesn't contain already the index we are iterating
+                if (arr.get(i) + arr.get(j) == targetSum && !pairsArr.contains(i) && !pairsArr.contains(j)) {
                     // In case add both index that match the condition
                     pairsArr.add(i);
                     pairsArr.add(j);

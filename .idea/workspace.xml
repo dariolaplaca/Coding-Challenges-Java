@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f3bb2b-52f8-45c5-8e9b-5c41298289b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Pairwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Pairwise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
