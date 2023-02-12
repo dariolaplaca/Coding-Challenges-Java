@@ -58,4 +58,8 @@ The third time, visit every 3rd door (i.e., door #3, #6, #9, ...), etc., until y
 <br><br>The function determines the state of the doors after the last pass and prints each opened doors number</blockquote></details>
 </li>
 
+<li><h4>Dot Product</h4><details><summary>Definition</summary><blockquote>
+The dot product is a mathematical operation that takes two vectors and returns a scalar value. It is calculated by multiplying the corresponding components of the two vectors and then summing the products. The dot product is also known as the scalar product or inner product, and is used in a variety of fields including physics, engineering, and computer graphics.</blockquote></details>
+</li>
+
 </ol>

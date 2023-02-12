@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f3bb2b-52f8-45c5-8e9b-5c41298289b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RosettaCode/DotProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +47,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.DotProduct">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.BubbleSort" />
       <module name="coding challenges java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RosettaCode.DotProduct" />
+      <module name="coding challenges java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RosettaCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oneHundredDoors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RosettaCode.oneHundredDoors" />
-      <module name="coding challenges java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RosettaCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DotProduct" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Pairwise" />
         <item itemvalue="Application.SymmetricDifference" />
         <item itemvalue="Application.NoRepeatsPlease" />
-        <item itemvalue="Application.oneHundredDoors" />
       </list>
     </recent_temporary>
   </component>
