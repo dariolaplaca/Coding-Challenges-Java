@@ -36,8 +36,14 @@ We can then write out the array with their indices and values.
 </blockquote></details>
 </li>
 
+<li><h4>Bubble Sort</h4><details><summary>Definition</summary><blockquote>
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each adjacent pair of items and swaps them if they are in the wrong order. 
+The pass through the list is repeated until the list is sorted.
 
+Although bubble sort is simple to understand and implement, it is not very efficient and is not often used in practical applications for sorting large data sets.
 
+</blockquote></details>
+</li>
 
 </ol>
 
