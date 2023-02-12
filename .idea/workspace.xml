@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f3bb2b-52f8-45c5-8e9b-5c41298289b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Pairwise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/SymmetricDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/SymmetricDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Pairwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Pairwise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +38,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/dario/Desktop/Programming/Java/challenges/coding challenges java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NoRepeatsPlease">
+  <component name="RunManager" selected="Application.Pairwise">
     <configuration name="InventoryUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.InventoryUpdate" />
       <module name="coding challenges java" />
@@ -63,6 +63,19 @@
     </configuration>
     <configuration name="NoRepeatsPlease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.NoRepeatsPlease" />
+      <module name="coding challenges java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pairwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Pairwise" />
       <module name="coding challenges java" />
       <extension name="coverage">
         <pattern>
@@ -102,9 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pairwise" />
+        <item itemvalue="Application.SymmetricDifference" />
         <item itemvalue="Application.NoRepeatsPlease" />
         <item itemvalue="Application.oneHundredDoors" />
-        <item itemvalue="Application.SymmetricDifference" />
         <item itemvalue="Application.InventoryUpdate" />
       </list>
     </recent_temporary>
