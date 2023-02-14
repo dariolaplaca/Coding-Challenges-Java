@@ -1,5 +1,5 @@
 # Coding-Challenges-Java
-Miscellaneous coding challenges from freeCodeCamp Coding Interview Prep written in Java.
+Coding challenges from freeCodeCamp Coding Interview Prep written in Java.
 
 <h2>Algorithms</h2>
 <ol>
@@ -63,3 +63,8 @@ The dot product is a mathematical operation that takes two vectors and returns a
 </li>
 
 </ol>
+
+<h2>MISC</h2>
+<ul>
+<li>My (BAD) solution for Trapping Rain Water <br><a href="https://leetcode.com/problems/trapping-rain-water/description/" target="_top">LeetCode site</a></li>
+</ul>
