@@ -9,7 +9,7 @@ public class TrappingRainWater {
         System.out.println("Expected Output: 9\nOutput: " + trap(new int[]{4,2,0,3,2,5})); // OUTPUT 9
     }
     static int trap(int[] height) {
-        // Storing the max height (Highest value in the Array) as an int
+        // Storing the max height (The highest value in the Array) as an int
         int maxHeight = Arrays.stream(height).max().getAsInt();
         // Creating a 2d Array Map from the elevation map and storing the cells with water with a 1 and the "wall" cells with a 0
         int[][] fullMap = new int[maxHeight][height.length];
