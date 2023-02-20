@@ -76,4 +76,5 @@ The dot product is a mathematical operation that takes two vectors and returns a
 <ul>
 <li>My (BAD) solution for Trapping Rain Water <br><a href="https://leetcode.com/problems/trapping-rain-water/description/" target="_top">LeetCode site</a></li>
 <li>Narcissistic Numbers<br><a href="https://www.codewars.com/kata/56b22765e1007b79f2000079" target="_top">CodeWars site</a></li>
+<li>Reverse Array<br> A function that takes an array and gives back the inverted one</li>
 </ul>
